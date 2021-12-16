@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <title>CodePen - Daily UI #007 | Settings</title>
-  <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.0.10/css/all.css'><link rel="stylesheet" href="./style.css">
+  <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.0.10/css/all.css'><link rel="stylesheet" href="./dashboard.css">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
 
 </head>
@@ -38,7 +38,7 @@
       <h2>Password </h2>
       <p>••••••• <button class="btn">Change</button></p>
     </div>
-    
+
     <div class="payment noshow">
       <h1>Payment Info</h1>
       <h2>Payment Method</h2>
@@ -93,7 +93,7 @@
       <h2>Referrals <button class="btn">get $10</button></h2>
    <p></p>
     </div>
-    
+
   </div>
 </div>
 
