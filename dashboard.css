@@ -2,15 +2,16 @@
 body {
   background: linear-gradient(to right, #3FB6A8, #7ED386);
 }
-
 .container {
   background: #FFFFFF;
   width: 540px;
-  height: 420px;
+  height: 649px;
   margin: 0 auto;
   position: relative;
   margin-top: 10%;
   box-shadow: 2px 5px 20px rgba(119, 119, 119, 0.5);
+  transform: scale(1.25);
+  transform-origin: 0 0;
 }
 
 .logo {
@@ -54,7 +55,7 @@ body {
   left: 5%;
   position: absolute;
   width: 15%;
-  height: 110%;
+  height: 105%;
   background: #7ED386;
   box-shadow: 3px 3px 10px rgba(119, 119, 119, 0.5);
 }
