@@ -87,7 +87,7 @@ nav a:first-child {
   height: 100%;
 }
 
-.profile, .payment, .subscription, .privacy, .settings {
+.profile, .payment, .subscription, .privacy, .settings, .train, .plane {
   transition: opacity 0.5s ease-in;
   position: absolute;
   width: 70%;
