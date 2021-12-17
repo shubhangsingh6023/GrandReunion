@@ -52,13 +52,17 @@
 <head>
   <meta charset="UTF-8">
   <title>Dashboard</title>
-  <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.0.10/css/all.css'><link rel="stylesheet" href="./dashboard.css">
+  <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.0.10/css/all.css'>
+  <link rel="stylesheet" href="./dashboard.css">
+  <link rel="stylesheet" href="css/navbar.css">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
 
 </head>
 <body>
+  <div>
+  <?php include('navbar.php') ?>
 <!-- partial:index.partial.html -->
-<div class="container">
+<div class="con">
   <!-- <div id="logo"><h1 class="logo">hulu</h1>
     <div class="CTA">
       <h1>Get $10</h1>
@@ -185,6 +189,7 @@
     </div>
 
   </div>
+</div>
 </div>
 
 <!-- partial -->
