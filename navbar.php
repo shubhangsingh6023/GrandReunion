@@ -13,7 +13,7 @@
 <link rel="stylesheet" href="css/navbar.css">
   </head>
   <body>
-<nav class="nb navbar sticky-top navbar-expand-lg navbar-light bg-transparent ">
+<nav class="nb navbar navbar-expand-lg navbar-light bg-transparent ">
     <div class="container-fluid">
         <a class="navbar-brand" href="index.php"><img  src="img/aamlogo.png"></a>
         

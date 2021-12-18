@@ -18,7 +18,7 @@
 }
 
 .nb ul li a .text {
-    color: darkgreen;
+    color: #ffffff;
 }
 
 .nb ul li a .icons {
@@ -28,7 +28,7 @@
     font-size: 2em;
     text-align: center;
     transition: 0.5s;
-    color: darkgreen;
+    color: #284B95;
     opacity: 0;
     transform: translateY(20px);
 }
@@ -42,7 +42,7 @@
 }
 
 .nb ul li.active .nav-link {
-    background-color: lightgreen;
+    background-color: #6f9bfa;
 }
 
 .nb ul li:hover a .icons {
@@ -51,5 +51,5 @@
 }
 
 .nb .nav-item:hover .nav-link {
-    background-color: lightgreen;
+    background-color: #6f9bfa;
 }

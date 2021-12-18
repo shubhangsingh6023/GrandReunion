@@ -53,7 +53,7 @@
     
     <div class="heading--primary-inside">
     <h5 style="font-weight: 600; padding-left: 1vw;">Pay the reqired amount to the given account and upload the reciept</h5>
-                    <div class = "col-12"><h2 style = "color: #007466; font-weight:bold;"><?php echo "$cost"?></h2></div>
+                    <div class = "col-12"><h2 style = "color: #002474; font-weight:bold;"><?php echo "$cost"?></h2></div>
                     <div class = "col-12 "><ul>
                         <li>ACCOUNT HOLDER NAME: IIT KGP AAIR EVENTS FUND</li>
                         <li>BANK: HDFC BANK</li>
