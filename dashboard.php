@@ -64,6 +64,7 @@
   <?php include('navbar.php') ?>
 <!-- partial:index.partial.html -->
 <div class="con">
+  <h1 class="logo"><span>PAYMENT STATUS: <?php if(empty($reciept)) echo "<span style='color:red;'>PENDING</span>"; else echo "<span style='color:green;'>PAID</span>" ?></span></h1>
   <div class="leftbox">
     <nav>
       <a id="profile" class="active"><i class="fa fa-user"></i> Personal Info</a>

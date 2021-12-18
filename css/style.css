@@ -1,6 +1,8 @@
 body {
   font: 100%/1.414 "Open Sans", "Roboto", arial, sans-serif;
-  background: linear-gradient(to right, #70CEF4, #204C8D,#18244A);
+  /* background: linear-gradient(to right, #70CEF4, #204C8D,#18244A); */
+  background-image: url(../img/form-bg.jpeg);
+  background-size: cover;
 }
 
 a,
@@ -30,7 +32,7 @@ a,
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 50rem;
+  width: 60vw;
   border-radius: 0.1875rem;
   box-shadow: 0px 0.1875rem 0.4375rem rgba(0, 0, 0, 0.25);
   background-color: #284B95;
@@ -166,4 +168,16 @@ label {
 }
 .signup__link:focus, .signup__link:hover {
   color: #787878;
+}
+
+@media screen and (max-width: 361px) {
+  .signup__container{
+    width: 95vw;
+  }
+  .heading--primary{
+    font-size: 1.55rem;
+  }
+  .signup__thumbnail{
+    padding-left: 0.6rem;
+  }
 }
