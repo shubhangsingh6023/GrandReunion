@@ -271,8 +271,8 @@
                                 <div class="input-group mb-3">
                                     <select  class="form-control form-select" type="list" list="kgpcarseater" id="kgpcarseater" name="kgpcarseater" value = "<?php echo "$kgpcarseater"?>">
                                         <option value=""></option> 
-                                        <option value="4">04 </option> 
-                                        <option value="6">06 </option>
+                                        <option value="4">04 Seater</option> 
+                                        <option value="6">06 Seater</option>
                                         <!--<option value="4">04 <span align = "right"> (₹)1000 </span></option> 
                                         <option value="6">06 <span align = "right"> (₹)2000 </span></option>-->
                                     </select>
@@ -304,7 +304,7 @@
                             <div class="col-sm-12 ">
                                 <label for="airtimetocome" class="form-label">
                                     Time to reach Kolkata Airport/Station
-                                    <span style="color:red;">**expected time</span>
+                                    <span style="color:red;">*expected time</span>
                                 </label>
                                 <div class="input-group mb-3">
                                     <span class="input-group-text" style="font-weight: 600;" id="basic-addon1"><i class='far fa-clock'></i></span>

@@ -1,33 +1,39 @@
 body {
     font: 100%/1.414 "Open Sans", "Roboto", arial, sans-serif;
-    background: linear-gradient(to right, #70CEF4, #204C8D,#18244A);
-  }
-  
-  a,
-  [type=submit] {
+    background: linear-gradient(to right, #70CEF4, #204C8D, #18244A);
+}
+
+a,
+[type=submit] {
     transition: all 0.25s ease-in;
-  }
-  .input-group{
-      width: 100%;
-  }
-  .heading--primary-inside{
-      color: #111;
-      font-weight: bold;
-  }
-  .section3{
+}
+
+.input-group {
+    width: 100%;
+}
+
+.heading--primary-inside {
+    color: #111;
+    font-weight: bold;
+}
+
+.section3 {
     display: none;
-  }
-  .section2{
+}
+
+.section2 {
     display: none;
-  }
-  .section4{
+}
+
+.section4 {
     display: none;
-  }
-  .section5{
+}
+
+.section5 {
     display: none;
-  }
-  
-  .signup__container {
+}
+
+.signup__container {
     right: 0;
     left: 0;
     margin-right: auto;
@@ -40,27 +46,28 @@ body {
     border-radius: 0.1875rem;
     box-shadow: 0px 0.1875rem 0.4375rem rgba(0, 0, 0, 0.25);
     background-color: #284B95;
-  }
-  
-  .signup__overlay {
+}
+
+.signup__overlay {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
     background-color: #182244;
-  }
-  
-  .child1 {
+}
+
+.child1 {
     width: 35%;
     color: #fff;
-  }
-  .child2 {
+}
+
+.child2 {
     width: 65%;
     color: #fff;
-  }
-  
-  .signup__thumbnail {
+}
+
+.signup__thumbnail {
     position: relative;
     padding: 2rem;
     display: flex;
@@ -70,92 +77,95 @@ body {
     background-repeat: no-repeat;
     background-position: top center;
     background-size: cover;
-  }
-  
-  .thumbnail__logo,
-  .thumbnail__content,
-  .thumbnail__links {
+}
+
+.thumbnail__logo,
+.thumbnail__content,
+.thumbnail__links {
     position: relative;
     z-index: 2;
-  }
-  
-  .thumbnail__logo {
+}
+
+.thumbnail__logo {
     align-self: flex-start;
-  }
-  
-  .logo__shape {
+}
+
+.logo__shape {
     fill: #fff;
-  }
-  
-  .logo__text {
+}
+
+.logo__text {
     display: inline-block;
     font-size: 0.8rem;
     font-weight: 700;
     vertical-align: bottom;
-  }
-  
-  .thumbnail__content {
+}
+
+.thumbnail__content {
     align-self: center;
-  }
-  
-  h1,
-  h2 {
+}
+
+h1,
+h2 {
     font-weight: 300;
     color: white;
-  }
-  
-  .heading--primary {
+}
+
+.heading--primary {
     font-size: 1.5rem;
-  }
-  
-  .heading--secondary {
+}
+
+.heading--secondary {
     font-size: 1.414rem;
-  }
-  
-  .thumbnail__links {
+}
+
+.thumbnail__links {
     align-self: flex-end;
     width: 100%;
-  }
-  
-  .thumbnail__links a {
+}
+
+.thumbnail__links a {
     font-size: 1rem;
     color: #fff;
-  }
-  .thumbnail__links a:focus, .thumbnail__links a:hover {
+}
+
+.thumbnail__links a:focus,
+.thumbnail__links a:hover {
     color: rgba(255, 255, 255, 0.5);
-  }
-  
-  .signup__form {
+}
+
+.signup__form {
     padding: 2.5rem;
     background: #fafafa;
-  }
-  
-  label {
+}
+
+label {
     font-size: 0.85rem;
     text-transform: uppercase;
     color: rgb(102, 102, 102);
-  }
-  
-  .form-control {
+}
+
+.form-control {
     background-color: transparent;
     border-top: 0;
     border-right: 0;
     border-left: 0;
     border-radius: 0;
-  }
-  .form-control:focus {
+}
+
+.form-control:focus {
     border-color: #111;
-  }
-  
-  [type=text] {
+}
+
+[type=text] {
     color: #111;
-  }
-  
-  [type=password] {
+}
+
+[type=password] {
     color: #111;
-  }
-  
-  .btn--form {
+}
+
+.btn--form {
     padding: 0.5rem 2.5rem;
     font-size: 0.95rem;
     font-weight: 600;
@@ -163,17 +173,25 @@ body {
     color: #fff;
     background: #111;
     border-radius: 2.1875rem;
-  }
-  .btn--form:focus, .btn--form:hover {
+}
+
+.btn--form:focus,
+.btn--form:hover {
     background: #323232;
-  }
-  
-  .signup__link {
+}
+
+.signup__link {
     font-size: 0.8rem;
     font-weight: 600;
     text-decoration: underline;
     color: #999;
-  }
-  .signup__link:focus, .signup__link:hover {
+}
+
+.signup__link:focus,
+.signup__link:hover {
     color: #787878;
-  }
+}
+
+li {
+    list-style: none;
+}

@@ -29,9 +29,9 @@
                 <li class="nav-item">
                     <a class="nav-link list" href="payment.php"><span class='icons'><i class="fas fa-rupee-sign"></i></span><span class='text'>Payment </span></a>                
                 </li>
-                <li class="nav-item list">
+                <!--<li class="nav-item list">
                     <a class="nav-link" href="travel.php"><span class='icons'><i class="fas fa-clipboard-check"></i></span><span class='text'> Travel</span> </a>                
-                </li>
+                </li>-->
                 <li class="nav-item list">
                     <a class="nav-link" href="edit_info.php"><span class='icons'><i class="fas fa-edit"></i></span><span class='text'>Edit</span> </a>                
                 </li>

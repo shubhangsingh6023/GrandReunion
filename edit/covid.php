@@ -1,22 +1,10 @@
-<?php
-  
-    if(!isset($_SESSION['email']))
-    {
-      header("Location: ./Utility/logout.html");
-    }
-
-
-        $status      = $_SESSION['status']       ;
-        $certificate = $_SESSION['certificate']  ;
-        $dosedate    = $_SESSION['valid']        ;
-?>
 <div class="section2">
     <div class="form-group">
         <div class="col-12 mb-2"><label for="note" style="color:red;">If you have accompaniments, upload a drive folder containing certificates of all</label></div>
         <div class="col-12"><label for="status">Vaccination Status <span style="color:red;">*</span></label></div> 
         <div class="input-group mb-3">
             
-            <select  class="form-control form-select" type="list" id="status" onchange="vaccine()" name="status" required>
+            <select  class="form-control form-select" type="list" id="status" onchange="vaccine()" name="status" value = "<?php echo "$status"?>" required>
                 <option value=""> </option> 
                 <option value="Fully Vaccinated">Fully Vaccinated</option>
                 <option value="Partially Vaccinated">Partially Vaccinated</option>
@@ -27,7 +15,7 @@
     </div>
     <div class="form-group certification1" style="display:none;">
         <label for="certificate">Drive link for Vaccination Certificate<span style="color:red;">*</span></label>
-        <input class="form-control" type="text" id="certificate" name="certificate" maxlength="100">
+        <input class="form-control" type="text" id="certificate" name="certificate" maxlength="100" value = "<?php echo "$certificate"?>">
     </div>
     <div class="form-group">
         <div class="valid1" id="valid" style="display:none;">
