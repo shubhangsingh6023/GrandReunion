@@ -40,9 +40,7 @@ session_start();
 
 <style>
 body{
-    background-image: url("img/form-bg.jpeg");
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background: linear-gradient(to right, #3FB6A8, #7ED386);
   }
 
   .dropdown-menu a:hover{
