@@ -166,7 +166,7 @@ body{
     
     ?>
       <div class="wrappers section2" >
-        <?php include 'dashboard_navbar.php'?>
+        <?php include 'navbar.php'?>
         <div class="container-fluid" style="margin-top:2.5vw !important;">
           <div class="row">
             <div class="col-md-3">
