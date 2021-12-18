@@ -64,18 +64,13 @@
   <?php include('navbar.php') ?>
 <!-- partial:index.partial.html -->
 <div class="con">
-  <!-- <div id="logo"><h1 class="logo">hulu</h1>
-    <div class="CTA">
-      <h1>Get $10</h1>
-    </div>
-  </div> -->
   <div class="leftbox">
     <nav>
-      <a id="profile" class="active"><i class="fa fa-user"></i></a>
-      <a id="payment"><i class="fas fa-briefcase"></i></a>
-      <a id="subscription"><i class="fas fa-graduation-cap"></i></a>
-      <a id="privacy"><i class="fas fa-syringe"></i></a>
-      <a id="settings"><i class="fas fa-bed"></i></a>
+      <a id="profile" class="active"><i class="fa fa-user"></i> Personal Info</a>
+      <a id="payment"><i class="fas fa-briefcase"></i> Work Experience</a>
+      <a id="subscription"><i class="fas fa-hand-peace"></i> Nostalgic Section</a>
+      <a id="privacy"><i class="fas fa-syringe"></i> Covid Info</a>
+      <a id="settings"><i class="fas fa-bed"></i> Accomodation</a>
     </nav>
   </div>
   <div class="rightbox">

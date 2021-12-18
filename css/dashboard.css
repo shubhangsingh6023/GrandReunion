@@ -5,13 +5,13 @@ body {
 
 .con {
     background: #FFFFFF;
-    width: 540px;
+    width: 850px;
     height: 670px;
     margin: 0 auto;
     position: relative;
     margin-top: 10%;
     box-shadow: 2px 5px 20px rgba(119, 119, 119, 0.5);
-    transform: scale(1.25);
+    /* transform: scale(1.25); */
     transform-origin: 0 0;
 }
 
@@ -57,7 +57,7 @@ body {
     top: -5%;
     left: 5%;
     position: absolute;
-    width: 15%;
+    width: 27%;
     height: 105%;
     background: #4b75cf;
     box-shadow: 3px 3px 10px rgba(119, 119, 119, 0.5);
