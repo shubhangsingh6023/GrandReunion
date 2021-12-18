@@ -41,6 +41,7 @@
 </head>
 <body>
 <!-- partial:index.partial.html -->
+<?php include('navbar.php') ?>
 <div class="signup__container">
   <div class="container__child child1 signup__thumbnail">
     <div class="thumbnail__content text-center">
