@@ -1,15 +1,3 @@
-<?php
-
-    if(!isset($_SESSION['email']))
-    {
-      header("Location: ./Utility/logout.html");
-    }
-          $marital      = $_SESSION['marital']        ;
-        $accompaniments = $_SESSION['accompanyingNo'] ;
-          $gh           = $_SESSION['room']           ;
-          $cost         = $_SESSION['cost']           ;
-
-?>
 <div class="section3">
     <table class="mb-3 border-light" style="margin-bottom: 2vh !important; color: black" >
         <th > Fixed charges</th>
@@ -39,16 +27,16 @@
     </table>
     <div class="form-group">
         <label for="marital">Marital Status</label>
-        <input class="form-control" type="text" name="marital" id="marital" maxlength="10">
+        <input class="form-control" type="text" name="marital" id="marital" value = "<?php echo "$marital"?>" maxlength="10">
     </div>
     <div class="form-group">
         <label for="accompanyingNo" >Accompanying Person(s)<span style="color:red;">*</span></label>
-        <input class="form-control" type="number" min="0" id="accompanyingNo" name="accompanyingNo" onchange="calc_cost()" required>
+        <input class="form-control" type="number" min="0" id="accompanyingNo" name="accompanyingNo" onchange="calc_cost()" value = "<?php echo "$accompaniments"?>" required>
         <small class = "text-muted">Kids below 13 years of age won't be charged. It's free of cost for them. Don't add them in the accompaniments list</small>
     </div>
     <div class="form-group">
         <label for="room">Guest House <span style="color:red;">*</span></label>
-        <select  class="form-control form-select" type="list" onchange="calc_cost()"  list="room" id="room" name="room" required>
+        <select  class="form-control form-select" type="list" onchange="calc_cost()"  list="room" id="room" name="room" value = "<?php echo "$gh"?>" required>
             <option value=""></option> 
             <option value="Technology Guest House/ Alumni Guest House">Technology Guest House/ Alumni Guest House</option> 
             <option value="VGH/ SAM">VGH/ SAM</option>
@@ -56,7 +44,7 @@
         </select>
     </div>
     <div class="form-group">
-        <input class="form-control" id="cost" name = "cost" type="text" value = "Total cost = &#8377; 0 " readonly>
+        <input class="form-control" id="cost" name = "cost" type="text" value = "<?php echo "$cost"?>" readonly>
     </div>
     <div class="m-t-lg">
         <button class="btn btn--form" type = "button" id = "next" onclick="back1()">Back</button>

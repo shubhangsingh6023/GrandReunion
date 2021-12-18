@@ -1,3 +1,52 @@
+<?php
+    session_start();  
+    
+    if(!isset($_SESSION['email']))
+    {
+      header("Location: ../logout.html");
+    }
+        // CREATING SESSION  
+        $name    = $_SESSION['Name']      ;
+        $email   = $_SESSION['email']     ;
+        $address = $_SESSION['address']   ;
+        $city    = $_SESSION['city']      ;
+        $state   = $_SESSION['state']     ;
+        $country = $_SESSION['country']   ;
+        $zipcode = $_SESSION['zipcode']   ;
+        $mobile  = $_SESSION['mobile']    ;
+        $dob     = $_SESSION['dob']       ;
+
+        $status      = $_SESSION['status']       ;
+        $certificate = $_SESSION['certificate']  ;
+        $dosedate    = $_SESSION['valid']        ;
+
+          $marital      = $_SESSION['marital']        ;
+        $accompaniments = $_SESSION['accompanyingNo'] ;
+          $gh           = $_SESSION['room']           ;
+          $cost         = $_SESSION['cost']           ;
+
+        $industry     = $_SESSION['industry']     ;
+        $profession   = $_SESSION['profession']   ;
+        $organisation = $_SESSION['orgName']      ;
+        $designation  = $_SESSION['designation']  ;
+        $waddress     = $_SESSION['work_address'] ;
+        $wcity        = $_SESSION['work_city']    ;
+        $wstate       = $_SESSION['work_state']   ;
+        $wcountry     = $_SESSION['work_country'] ;
+        $wzipcode     = $_SESSION['work_zipcode'] ;
+
+        $rollno      = $_SESSION['rollNum']         ;
+        $joinyear    = $_SESSION['joinYear']        ;
+        $degree      = $_SESSION['degree']          ;
+        $dept        = $_SESSION['department']      ;
+        $hall        = $_SESSION['hall']            ;
+        $yog         = $_SESSION['graduatingYear']  ;
+        $involvement = $_SESSION['involvements']    ;
+        $hobbies     = $_SESSION['hobbies']         ;
+
+        $reciept = $_SESSION['reciept'] ;  
+?>
+
 <!DOCTYPE html>
 <html lang="en" >
 <head>
@@ -8,7 +57,7 @@
 <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,300'>
 <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto:400,700,300'>
 <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css'>
-<link rel="stylesheet" href="./style.css">
+<link rel="stylesheet" href="./css/style.css">
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js" integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/" crossorigin="anonymous"></script>
