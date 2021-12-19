@@ -3,6 +3,11 @@
     font-size: 1.1rem;
 }
 
+.navbar-light .navbar-toggler {
+    color: rgb(0 0 0);
+    border-color: rgb(0, 0, 0);
+}
+
 .nb .nav-link {
     padding-right: 20px !important;
     padding-left: 20px !important;
@@ -11,6 +16,7 @@
 .nb .navbar-brand img {
     height: 4.5rem;
     width: 7rem;
+    margin-right: 9rem;
 }
 
 .nb li {
