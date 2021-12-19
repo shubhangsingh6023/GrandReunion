@@ -56,7 +56,7 @@ a,
   position: relative;
   padding: 2rem;
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap:wrap;
   align-items: center;
   background-color: #355baf;
   background-repeat: no-repeat;
@@ -97,11 +97,11 @@ h2 {
 }
 
 .heading--primary {
-  font-size: 1.999rem;
+  font-size: 2.3vw;
 }
 
 .heading--secondary {
-  font-size: 1.414rem;
+  font-size: 1.414vw;
 }
 
 .thumbnail__links {
@@ -148,13 +148,13 @@ label {
 }
 
 .btn--form {
-  padding: 0.5rem 2.5rem;
-  font-size: 0.95rem;
+  padding: 0.5vw 2.5vw;
+  font-size: 1vw;
   font-weight: 600;
   text-transform: uppercase;
   color: #fff;
   background: #111;
-  border-radius: 2.1875rem;
+  border-radius: 2.1875vw;
 }
 .btn--form:focus, .btn--form:hover {
   background: #323232;
@@ -177,7 +177,21 @@ label {
   .heading--primary{
     font-size: 1.55rem;
   }
+  .heading--secondary{
+    font-size: 0.6rem;
+  }
   .signup__thumbnail{
     padding-left: 0.6rem;
+  }
+  .signup__container{
+    flex-direction: column-reverse;
+  }
+  .signup__form{
+    width: 100%;
+  }
+  .btn--form{
+    padding: 1vw 3.5vw;
+    font-size: 3.5vw;
+    border-radius: 2.7875vw;
   }
 }
