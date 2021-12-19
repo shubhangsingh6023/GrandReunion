@@ -125,7 +125,7 @@ h2 {
 label {
   font-size: 0.85rem;
   text-transform: uppercase;
-  color: rgb(112, 111, 111);
+  color: rgb(62 62 62);
 }
 
 .form-control {
@@ -164,7 +164,7 @@ label {
   font-size: 0.8rem;
   font-weight: 600;
   text-decoration: underline;
-  color: #999;
+  color: rgb(62 62 62);
 }
 .signup__link:focus, .signup__link:hover {
   color: #787878;
@@ -184,7 +184,7 @@ label {
     padding-left: 0.6rem;
   }
   .signup__container{
-    flex-direction: column-reverse;
+    flex-direction: column;
   }
   .signup__form{
     width: 100%;

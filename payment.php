@@ -21,7 +21,7 @@
 <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,300'>
 <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto:400,700,300'>
 <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css'>
-<link rel="stylesheet" href="./css/travel.css">
+<link rel="stylesheet" href="./css/payment.css">
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js" integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/" crossorigin="anonymous"></script>
@@ -52,15 +52,15 @@
   <div class="container__child child2 signup__form">
     
     <div class="heading--primary-inside">
-    <h5 style="font-weight: 500; padding-left: 1vw;">Pay the reqired amount to the given account and upload the reciept</h5>
+    <h5 style="font-weight: 500; padding-left: 0vw;">Pay the reqired amount to the given account and upload the reciept</h5>
                     <div class = "col-12"><h2 style = "color: #002474; font-weight:bold;"><?php echo "$cost"?></h2></div>
-                    <div class = "col-12 "><ul>
-                        <li>ACCOUNT HOLDER NAME <span> IIT KGP AAIR EVENTS FUND</span></li>
-                        <li>BANK                <span> HDFC BANK               </span></li>
-                        <li>ACCOUNT NO          <span> 50100217409918          </span></li>
-                        <li>IFSC                <span> HDFC0001065             </span></li>
-                        <li>MICR                <span> 721240102               </span></li>
-                        <li>SWIFT CODE          <span> HDFCINBBCAL             </span></li>
+                    <div><ul>
+                        <li>ACCOUNT HOLDER NAME: <span> IIT KGP AAIR EVENTS FUND</span></li>
+                        <li>BANK:                <span> HDFC BANK               </span></li>
+                        <li>ACCOUNT NO:          <span> 50100217409918          </span></li>
+                        <li>IFSC:                <span> HDFC0001065             </span></li>
+                        <li>MICR:                <span> 721240102               </span></li>
+                        <li>SWIFT CODE:          <span> HDFCINBBCAL             </span></li>
                     </ul></div>    
     </div>  
     <form action="backend\reciept.php" method = "post" >

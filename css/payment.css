@@ -142,7 +142,7 @@ h2 {
 label {
     font-size: 0.85rem;
     text-transform: uppercase;
-    color: rgb(102, 102, 102);
+    color: rgb(62 62 62);
 }
 
 .form-control {
@@ -195,3 +195,33 @@ label {
 li {
     list-style: none;
 }
+
+@media screen and (max-width: 361px) {
+    .signup__container{
+      width: 95vw;
+    }
+    .heading--primary{
+      font-size: 1.55rem;
+    }
+    .heading--secondary{
+      font-size: 0.6rem;
+    }
+    .signup__thumbnail{
+      padding-left: 0.6rem;
+    }
+    .signup__container{
+      flex-direction: column;
+    }
+    .signup__form{
+      width: 100%;
+    }
+    .btn--form{
+      padding: 1vw 3.5vw;
+      font-size: 3.5vw;
+      border-radius: 2.7875vw;
+    }
+
+    li{
+        font-size: 3vw;
+    }
+  }
