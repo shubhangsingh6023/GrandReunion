@@ -34,13 +34,7 @@
     font-size: 2em;
     text-align: center;
     transition: 0.5s;
-    color: #284B95;
-    opacity: 0;
-    transform: translateY(20px);
-}
-
-.nb ul li.active a .text {
-    opacity: 0;
+    color: white;
 }
 
 .nb ul li.active a .icons {
@@ -58,4 +52,8 @@
 
 .nb .nav-item:hover .nav-link {
     background-color: #6f9bfa;
+}
+
+.container-fluid{
+    background-color: white;
 }

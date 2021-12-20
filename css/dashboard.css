@@ -1,6 +1,8 @@
 @import url("https://fonts.googleapis.com/css?family=Nunito:400,900|Montserrat|Roboto");
 body {
     background: linear-gradient(to right, #70CEF4, #204C8D,#18244A);
+    background-image: url(../img/form-bg.jpeg);
+    background-size: cover;
 }
 
 .con {

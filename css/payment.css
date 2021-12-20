@@ -1,6 +1,7 @@
 body {
     font: 100%/1.414 "Open Sans", "Roboto", arial, sans-serif;
-    background: linear-gradient(to right, #70CEF4, #204C8D, #18244A);
+    background-image: url(../img/form-bg.jpeg);
+    background-size: cover;
 }
 
 a,
