@@ -48,11 +48,15 @@ body {
   }
   
   .container__child {
-    width: 50%;
     color: #fff;
+  }
+
+  .signup__form{
+    width: 60%;
   }
   
   .signup__thumbnail {
+    width: 40%;
     position: relative;
     padding: 2rem;
     display: flex;
@@ -176,12 +180,17 @@ body {
     }
     .heading--primary{
       font-size: 1.55rem;
+      margin-left: 2.5rem;
+
     }
     .heading--secondary{
       font-size: 0.6rem;
     }
     .signup__thumbnail{
-      padding-left: 0.6rem;
+      /* padding-left: 5rem; */
+      align-items: center;
+      width: 100%;
+      text-align:center;
     }
     .signup__container{
       flex-direction: column;
