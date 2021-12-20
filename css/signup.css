@@ -9,6 +9,11 @@ body {
   [type=submit] {
     transition: all 0.25s ease-in;
   }
+
+  .m-t-lg{
+    display: flex;
+    justify-content: space-between;
+  }
   
   .section3{
     display: none;
