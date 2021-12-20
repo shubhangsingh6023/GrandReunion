@@ -43,15 +43,11 @@ session_start();
     <?php
       $path="connection.php";
       include 'adminPages/config.php';
-      $batch1981=getBatch('1981');$no1981=getBatch('1981');
-      $batch1982=getBatch('1982');$no1982=getBatch('1982');
-      $batch1996=getBatch('1996');$no1996=getBatch('1996');
-      $batch1997=getBatch('1997');$no1997=getBatch('1997');
-      $no_of_people1981 = 0;$no_of_people1982 = 0;$no_of_people1996 = 0;$no_of_people1997 = 0;
-      while($val=$no1981->fetch(PDO::FETCH_ASSOC)){ $no_of_people1981++;}
-      while($val=$no1982->fetch(PDO::FETCH_ASSOC)){ $no_of_people1982++;}
-      while($val=$no1996->fetch(PDO::FETCH_ASSOC)){ $no_of_people1996++;}
-      while($val=$no1997->fetch(PDO::FETCH_ASSOC)){ $no_of_people1997++;}
+      $batch1981=getBatch('1971');$no1981=getBatch('1971');
+      $batch1982=getBatch('1972');$no1982=getBatch('1972');
+      $no_of_people1971 = 0;$no_of_people1972 = 0;
+      while($val=$no1981->fetch(PDO::FETCH_ASSOC)){ $no_of_people1971++;}
+      while($val=$no1982->fetch(PDO::FETCH_ASSOC)){ $no_of_people1972++;}
     
     ?>
 
@@ -60,10 +56,8 @@ session_start();
   <div class="con">
     <div class="leftbox">
       <nav>
-        <a id="profile" class="active" onclick="show_1981()">1981 <span style="color:red;"><?php echo "(".$no_of_people1981.")" ?></a>
-        <a id="payment" onclick="show_1982()">1982 <span style="color:red;"><?php echo "(".$no_of_people1982.")" ?></span></a>
-        <a id="subscription" onclick="show_1996()">1996 <span style="color:red;"><?php echo "(".$no_of_people1996.")" ?></span></a>
-        <a id="privacy" onclick="show_1997()">1997 <span style="color:red;"><?php echo "(".$no_of_people1997.")" ?></span></a>
+        <a id="profile" class="active" onclick="show_1981()">1971 <span style="color:red;"><?php echo "(".$no_of_people1971.")" ?></a>
+        <a id="payment" onclick="show_1972()">1972 <span style="color:red;"><?php echo "(".$no_of_people1972.")" ?></span></a>
       </nav>
     </div>
     <div class="rightbox">
@@ -90,25 +84,6 @@ session_start();
               <?php } ?>
           </table>
         </div>
-        <div id="1996" style="text-align:center; ">
-          <table class="table">
-              <tr>
-                  <th scope="row">Name</th>
-              </tr>
-              <?php   while($value=$batch1996->fetch(PDO::FETCH_ASSOC)){?>
-                <tr><td><?php echo  $value['Name']; ?></td></tr>
-              <?php } ?>
-          </table>
-        </div>
-        <div id="1997" style="text-align:center; ">
-          <table class="table">
-              <tr>
-                  <th scope="row">Name</th>
-              </tr>
-              <?php   while($value=$batch1997->fetch(PDO::FETCH_ASSOC)){?>
-                <tr><td><?php echo  $value['Name']; ?></td></tr>
-              <?php } ?>
-          </table>
         </div>
       </div>
     </div>
