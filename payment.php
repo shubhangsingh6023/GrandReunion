@@ -52,15 +52,15 @@
   <div class="container__child child2 signup__form">
     
     <div class="heading--primary-inside">
-    <h5 style="font-weight: 500; padding-left: 0vw;">Pay the reqired amount to the given account and upload the reciept</h5>
+    <h5 style="font-weight: 500; padding-left: 1vw;">Pay the reqired amount to the given account and upload the reciept</h5>
                     <div class = "col-12"><h2 style = "color: #002474; font-weight:bold;"><?php echo "$cost"?></h2></div>
-                    <div><ul>
-                        <li>ACCOUNT HOLDER NAME: <span> IIT KGP AAIR EVENTS FUND</span></li>
-                        <li>BANK:                <span> HDFC BANK               </span></li>
-                        <li>ACCOUNT NO:          <span> 50100217409918          </span></li>
-                        <li>IFSC:                <span> HDFC0001065             </span></li>
-                        <li>MICR:                <span> 721240102               </span></li>
-                        <li>SWIFT CODE:          <span> HDFCINBBCAL             </span></li>
+                    <div style="font-weight: 400; padding-left: 1vw;"><ul>
+                        <div class = "row"> <div class = "col-6">ACCOUNT HOLDER NAME </div><div class = "col-6"> IIT KGP AAIR EVENTS FUND</div></div>
+                        <div class = "row"> <div class = "col-6">BANK               </div><div class = "col-6"> HDFC BANK               </div></div>
+                        <div class = "row"> <div class = "col-6">ACCOUNT NO         </div><div class = "col-6"> 50100217409918          </div></div>
+                        <div class = "row"> <div class = "col-6">IFSC                </div><div class = "col-6"> HDFC0001065             </div></div>
+                        <div class = "row"> <div class = "col-6">MICR              </div><div class = "col-6"> 721240102               </div></div>
+                        <div class = "row"> <div class = "col-6">SWIFT CODE          </div><div class = "col-6"> HDFCINBBCAL             </div></div>
                     </ul></div>    
     </div>  
     <form action="backend\reciept.php" method = "post" >

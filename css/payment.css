@@ -9,10 +9,10 @@ a,
     transition: all 0.25s ease-in;
 }
 
-.m-t-lg{
+.m-t-lg {
     display: flex;
     justify-content: space-between;
-  }
+}
 
 .input-group {
     width: 100%;
@@ -186,7 +186,7 @@ label {
     background: #323232;
 }
 
-ul{
+ul {
     padding: 0%;
 }
 
@@ -207,31 +207,59 @@ li {
 }
 
 @media screen and (max-width: 361px) {
-    .signup__container{
-      width: 95vw;
+    .signup__container {
+        width: 95vw;
     }
-    .heading--primary{
-      font-size: 1.55rem;
+    .heading--primary {
+        font-size: 1.55rem;
     }
-    .heading--secondary{
-      font-size: 0.6rem;
+    .heading--secondary {
+        font-size: 0.6rem;
     }
-    .signup__thumbnail{
-      padding-left: 0.6rem;
+    .signup__thumbnail {
+        padding-left: 0.6rem;
     }
-    .signup__container{
-      flex-direction: column;
+    .signup__container {
+        flex-direction: column;
     }
-    .signup__form{
-      width: 100%;
+    .signup__form {
+        width: 100%;
     }
-    .btn--form{
-      padding: 1vw 3.5vw;
-      font-size: 3.5vw;
-      border-radius: 2.7875vw;
+    .btn--form {
+        padding: 1vw 3.5vw;
+        font-size: 3.5vw;
+        border-radius: 2.7875vw;
     }
-
-    li{
+    li {
         font-size: 3vw;
     }
-  }
+}
+
+@media screen and (max-width: 820px) {
+    .signup__container {
+        width: 92vw;
+    }
+    .heading--primary {
+        font-size: 1.55rem;
+    }
+    .heading--secondary {
+        font-size: 0.6rem;
+    }
+    .signup__thumbnail {
+        padding-left: 0.6rem;
+    }
+    .signup__container {
+        flex-direction: column;
+    }
+    .signup__form {
+        width: 100%;
+    }
+    .btn--form {
+        padding: 1vw 3.5vw;
+        font-size: 3.5vw;
+        border-radius: 2.7875vw;
+    }
+    li {
+        font-size: 3vw;
+    }
+}
