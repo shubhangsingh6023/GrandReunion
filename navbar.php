@@ -38,17 +38,25 @@
     </div>
 </nav>
 <script>
-    let list = document.querySelectorAll('.list');
+     var list = document.getElementsByClassName('nav-item');
+     var nav_link = document.getElementsByClassName('nav-link');
 
-function activeLink () {
-	list.forEach((item) => {
-		item.classList.remove('active');
-		this.classList.add('active');
-	})
-}
+    var current_link = window.location.href;
 
-list.forEach((item) => {
-	item.addEventListener('click', activeLink);
-});
+   //console.log(link_arr[4]);
+
+
+    for(var i=0;i<nav_link.length;i++){
+        //console.log(nav_link[i].href,current_link);
+        if(nav_link[i].href == current_link){
+            //console.log('a');
+            list[i].className = "nav-item list active";
+        }
+        else{
+            list[i].className = "nav-item list ";
+        }
+    }
+
+
 </script>
 </body>
