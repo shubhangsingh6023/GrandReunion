@@ -1,0 +1,15 @@
+{
+    "name": "vendor/grandreunion",
+    "autoload": {
+        "psr-4": {
+            "Vendor\\Grandreunion\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Umang-IIT",
+            "email": "73515380+Umang-IIT@users.noreply.github.com"
+        }
+    ],
+    "require": {}
+}
