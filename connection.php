@@ -1,6 +1,6 @@
 <?php
 
-$DB_HOST = "https://db4free.net/";
+$DB_HOST = "db4free.net";
 $DB_NAME = "grandreunion238";
 $DB_USER = "puravi";
 $DB_PASS = "f.aKv_qp4aTVGFC";
