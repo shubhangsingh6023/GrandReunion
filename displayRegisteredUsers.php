@@ -43,11 +43,11 @@ session_start();
     <?php
       $path="connection.php";
       include 'adminPages/config.php';
-      $batch1981=getBatch('1971');$no1981=getBatch('1971');
-      $batch1982=getBatch('1972');$no1982=getBatch('1972');
+      $batch1971=getBatch('1971');$no1971=getBatch('1971');
+      $batch1972=getBatch('1972');$no1972=getBatch('1972');
       $no_of_people1971 = 0;$no_of_people1972 = 0;
-      while($val=$no1981->fetch(PDO::FETCH_ASSOC)){ $no_of_people1971++;}
-      while($val=$no1982->fetch(PDO::FETCH_ASSOC)){ $no_of_people1972++;}
+      while($val=$no1971->fetch(PDO::FETCH_ASSOC)){ $no_of_people1971++;}
+      while($val=$no1972->fetch(PDO::FETCH_ASSOC)){ $no_of_people1972++;}
     
     ?>
 
@@ -56,30 +56,30 @@ session_start();
   <div class="con">
     <div class="leftbox">
       <nav>
-        <a id="profile" class="active" onclick="show_1981()">1971 <span style="color:red;"><?php echo "(".$no_of_people1971.")" ?></a>
+        <a id="profile" class="active" onclick="show_1971()">1971 <span style="color:red;"><?php echo "(".$no_of_people1971.")" ?></a>
         <a id="payment" onclick="show_1972()">1972 <span style="color:red;"><?php echo "(".$no_of_people1972.")" ?></span></a>
       </nav>
     </div>
     <div class="rightbox">
       <div class="col-8" style="background-color:white;">
-        <div class="prof1" id="1981" style="text-align:center;">
+        <div class="prof1" id="1971" style="text-align:center;">
           <table class="table">
               <tr>
                   <th scope="row">Name</th>
               </tr>
-              <?php   while($value=$batch1981->fetch(PDO::FETCH_ASSOC)){?>
+              <?php   while($value=$batch1971->fetch(PDO::FETCH_ASSOC)){?>
                 <tr><td><?php echo  $value['Name']; ?></td></tr>
               <?php } ?>
               </tr>
               
           </table>
         </div>
-        <div id="1982" style="text-align:center;">
+        <div id="1972" style="text-align:center;">
           <table class="table">
               <tr>
                   <th scope="row">Name</th>
               </tr>
-              <?php   while($value=$batch1982->fetch(PDO::FETCH_ASSOC)){?>
+              <?php   while($value=$batch1972->fetch(PDO::FETCH_ASSOC)){?>
                 <tr><td><?php echo  $value['Name']; ?></td></tr>
               <?php } ?>
           </table>
@@ -90,48 +90,19 @@ session_start();
   </div>
         
       <script>
-          function show_1981(){
-            document.getElementById('1981').style.display = "block";
-            document.getElementById('1982').style.display = "none";
-            document.getElementById('1996').style.display = "none";
-            document.getElementById('1997').style.display = "none";
-            document.getElementById("1981_btn").style.color = "#4169e1";
-            document.getElementById("1982_btn").style.color     = "black";
-            document.getElementById("1996_btn").style.color  = "black";
-            document.getElementById("1997_btn").style.color    = "black";
+          function show_1971(){
+            document.getElementById('1971').style.display = "block";
+            document.getElementById('1972').style.display = "none";
+            document.getElementById("1971_btn").style.color = "#4169e1";
+            document.getElementById("1972_btn").style.color     = "black";
           }
-          function show_1982(){
-            document.getElementById('1981').style.display = "none";
-            document.getElementById('1982').style.display = "block";
-            document.getElementById('1996').style.display = "none";
-            document.getElementById('1997').style.display = "none";
-            document.getElementById("1981_btn").style.color = "black";
-            document.getElementById("1982_btn").style.color     = "#4169e1";
-            document.getElementById("1996_btn").style.color  = "black";
-            document.getElementById("1997_btn").style.color    = "black";
+          function show_1972(){
+            document.getElementById('1971').style.display = "none";
+            document.getElementById('1972').style.display = "block";
+            document.getElementById("1971_btn").style.color = "black";
+            document.getElementById("1972_btn").style.color     = "#4169e1";
           }
-          function show_1996(){
-            document.getElementById('1981').style.display = "none";
-            document.getElementById('1982').style.display = "none";
-            document.getElementById('1996').style.display = "block";
-            document.getElementById('1997').style.display = "none";
-            document.getElementById("1981_btn").style.color = "black";
-            document.getElementById("1982_btn").style.color     = "black";
-            document.getElementById("1996_btn").style.color  = "#4169e1";
-            document.getElementById("1997_btn").style.color    = "black";
-          }
-          function show_1997(){
-            document.getElementById('1981').style.display = "none";
-            document.getElementById('1982').style.display = "none";
-            document.getElementById('1996').style.display = "none";
-            document.getElementById('1997').style.display = "block";
-            document.getElementById("1981_btn").style.color = "black";
-            document.getElementById("1982_btn").style.color     = "black";
-            document.getElementById("1996_btn").style.color  = "black";
-            document.getElementById("1997_btn").style.color    = "#4169e1";
-          }
-
-          show_1981();
+          show_1971();
         </script>
     
 </body>
