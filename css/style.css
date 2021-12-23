@@ -175,7 +175,7 @@ label {
   color: #787878;
 }
 
-@media screen and (max-width: 361px) {
+@media screen and (max-width: 415px) {
   .signup__container{
     width: 95vw;
   }

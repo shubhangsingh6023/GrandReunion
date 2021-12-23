@@ -1,1 +1,1 @@
-web:node src/server.js
+web: heroku-php-apache2
