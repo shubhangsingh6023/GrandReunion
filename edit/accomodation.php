@@ -40,7 +40,7 @@
             <option value=""></option> 
             <option value="Technology Guest House/ Alumni Guest House">Technology Guest House/ Alumni Guest House</option> 
             <option value="VGH/ SAM">VGH/ SAM</option>
-            <option value="NA">Not Required</option>
+            <!--<option value="NA">Not Required</option>-->
         </select>
     </div>
     <div class="form-group">
